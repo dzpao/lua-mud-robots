@@ -23,8 +23,9 @@ require = function (name)
     return ret
 end
 
-Run=exe
-
 GetVar = function (name)
     return var.name
 end
+
+Run=exe
+Show=Echo
